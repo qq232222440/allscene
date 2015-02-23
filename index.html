@@ -60,7 +60,24 @@
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-
+	<script>
+		function is_weixin()
+		{	
+			var u = navigator.userAgent.toLowerCase();
+			if(u.match(/MicroMessenger/i)=="micromessenger")
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+		if(is_weixin())
+		{
+			window.location.href=""
+		}
+	</script>
     
 
   </body>
