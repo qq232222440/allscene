@@ -7,9 +7,9 @@
 
 	
 	<!-- pano image -->
-	<preview url="../../p3/preview.jpg" />
+	<preview url="../../allscene/p3/preview.jpg" />
 	<image>
-		<cube url="../../p3/pano_%s.jpg" />
+		<cube url="../../allscene/p3/pano_%s.jpg" />
 	</image>
 	
 	
