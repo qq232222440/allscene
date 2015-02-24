@@ -169,7 +169,7 @@
 	
 	
 	<!-- a combobox for selecting different snow effect -->
-	<plugin name="combobox" url="%SWFPATH%/plugins/javascripts.swf" alturl="%SWFPATH%/javascripts/combobox.js" align="leftbottom" x="10" y="10" zorder="2" rowcount="10">
+<!-- 	<plugin name="combobox" url="%SWFPATH%/plugins/javascripts.swf" alturl="%SWFPATH%/javascripts/combobox.js" align="leftbottom" x="10" y="10" zorder="2" rowcount="10">
 		<item name="opt1"  caption="Snow Balls"      onclick="snowballs();"   />
 		<item name="opt2"  caption="Snow Flakes"     onclick="snowflakes();"  />
 		<item name="opt3"  caption="Silver Stars"    onclick="silverstars();" />
@@ -180,6 +180,6 @@
 		<item name="opt8"  caption="Rain"            onclick="rain();"        />
 		<item name="opt9"  caption="Heavy Rain"      onclick="heavyrain();"   />
 		<item name="opt10" caption="Default Snow"    onclick="defaultsnow();" />
-	</plugin>
+	</plugin> -->
 
 </krpano>
