@@ -7,9 +7,9 @@
 
 	
 	<!-- pano image -->
-	<preview url="../../1/p3/preview.jpg" />
+	<preview url="../../p3/preview.jpg" />
 	<image>
-		<cube url="../../1/p3/pano_%s.jpg" />
+		<cube url="../../p3/pano_%s.jpg" />
 	</image>
 	
 	
@@ -48,7 +48,7 @@
 		set(plugin[snow].wind,          0.0);
 	</action>
 	
-	<action name="snowballs">
+<!-- 	<action name="snowballs">
 		set(plugin[snow].mode,          image);
 		set(plugin[snow].imageurl,      '%CURRENTXML%/snowball.png');
 		set(plugin[snow].blendmode,     normal);
@@ -166,7 +166,7 @@
 		set(plugin[snow].rainalpha,     0.3);
 		set(plugin[snow].wind,          3.0);
 	</action>
-	
+	 -->
 	
 	<!-- a combobox for selecting different snow effect -->
 <!-- 	<plugin name="combobox" url="%SWFPATH%/plugins/javascripts.swf" alturl="%SWFPATH%/javascripts/combobox.js" align="leftbottom" x="10" y="10" zorder="2" rowcount="10">
